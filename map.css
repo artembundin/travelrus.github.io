@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./fonts/OpenSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/OpenSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: 'OpenSans';
+    background-color: white;
+    color: white;
+    font-weight: 550;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+p {
+    display: flex;
+    color: darkolivegreen;
+    /*animation: pfade linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;*/
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: darkolivegreen;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Карта 1*/
+
+.mapstore {
+}
+
+.mapstore-container {
+    display: flex;
+    max-width: 1700px;
+    height: 900px;
+}
+
+.map-text {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    text-align: left;
+    left: 1090px;
+    top: 200px
+}
+
+.map-text h1 {
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.map-text p {
+    
+}
+
+.btn-map {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px 3px #8a8a8a;
+    cursor: pointer;
+    transition: .3s;
+
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: darkolivegreen;
+}
+
+.btn-map:active {
+    box-shadow: 5px 5px 5px darkolivegreen;
+}
+
+.map {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    top: 180px;
+    left: -120px;
+}
+
+/*Карта 2*/
+
+.mapstore-container2 {
+    display: flex;
+    max-width: 1700px;
+    height: 900px;
+    margin-top: 50px;
+}
+
+.map-text2  {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    text-align: right;
+    left: 230px;
+    top: 30px;
+}
+
+.map-text2 h1 {
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+
+
+.btn-map2 {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px 3px #8a8a8a;
+    cursor: pointer;
+    transition: .3s;
+
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: darkolivegreen;
+}
+
+.btn-map2:hover {
+    box-shadow: 5px 5px 5px darkolivegreen;
+}
+
+.map2 {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    margin-left: 430px;
+}
+
+/*Карта3*/
+
+.mapstore3 {
+
+}
+
+.mapstore-container3 {
+    display: flex;
+    max-width: 1700px;
+    height: 900px;
+    margin-top: -290px;
+}
+
+.map-text3 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    text-align: left;
+    left: 1090px;
+    top: 200px
+}
+
+.map-text3 h1 {
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.btn-map3 {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px 3px #8a8a8a;
+    cursor: pointer;
+    transition: .3s;
+
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: darkolivegreen;
+}
+
+.btn-map3:hover {
+    box-shadow: 5px 5px 5px darkolivegreen;
+}
+
+.map3 {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    top: 180px;
+    left: -120px;
+    background-color: bisque;
+}
+

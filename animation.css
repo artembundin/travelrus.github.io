@@ -1,0 +1,11 @@
+.anim .header-logo {
+    transform: translateX(-20%);
+    transition: all 2s;
+    opacity: 0;
+}
+
+.anim .header-logo .active {
+    transform: translateX(0);
+    opacity: 1;
+}
+

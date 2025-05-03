@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./fonts/OpenSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/OpenSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: 'OpenSans';
+    background-color: white;
+    color: white;
+    font-weight: 550;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+p {
+    display: flex;
+    /*animation: pfade linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;*/
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: darkolivegreen;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Логин*/
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    max-width: 1700px;
+    height: 900px;
+    background-image: url(./images/lestuman.png);
+    background-size: 1700px 900px;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 500px;
+    margin-top: 100px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.login-container h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.login-container .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 5px 5px 5px 10px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box i {
+    position: relative;
+    font-size: 20px;
+    top: -42px;
+    left: 335px;
+}
+
+.login-container .remember {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    gap: 120px;
+    margin: 15px 0 15px;
+}
+
+.remember label input {
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.remember a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
+
+.login-container .btn-login {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid white;
+    font-size: 16px;
+    color: darkolivegreen;
+    font-weight: 700;
+}
