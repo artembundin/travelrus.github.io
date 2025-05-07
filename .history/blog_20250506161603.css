@@ -57,7 +57,7 @@ a {
     justify-content: center;
     max-width: 1700px;
     height: 900px;
-    background-image: url(images/lestuman.png);
+    background-image: url(/images/lestuman.png);
     background-size: 1700px 900px;
     background-repeat: no-repeat;
 }

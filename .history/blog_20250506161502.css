@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'OpenSans';
-    src: url('fonts/OpenSans-Bold.woff2') format('woff2');
+    src: url('/fonts/OpenSans-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -57,7 +57,7 @@ a {
     justify-content: center;
     max-width: 1700px;
     height: 900px;
-    background-image: url(images/lestuman.png);
+    background-image: url(./images/lestuman.png);
     background-size: 1700px 900px;
     background-repeat: no-repeat;
 }
